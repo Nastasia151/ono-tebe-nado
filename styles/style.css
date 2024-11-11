@@ -1,29 +1,27 @@
 /* место для вашего кода */
-.header {  
+.header {
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     margin: 92px 24px 96px;
 }
 
-
 .header__links-list1 {
     display: flex;
-    justify-content: start;    
+    justify-content: start;
     gap: 14px;
     padding-top: 44px;
-    padding-left: 26px;   
+    padding-left: 26px;
 }
 
 .header__links-list {
     display: flex;
-    justify-content: start;    
+    justify-content: start;
     gap: 14px;
     padding-top: 44px;
-    padding-left: 26px; 
+    padding-left: 26px;
     font-size: 18px;
     line-height: 21px;
 }
-
 
 .header__links-list-item {
     letter-spacing: 0.2px;
@@ -33,7 +31,7 @@
 
 .menu__links-list-item_no-bullit {
     list-style: none;
- }
+}
 
 .header__link {
     margin-left: -7.3px; /*отступ от маркера*/
@@ -65,8 +63,7 @@
     font-weight: 400;
     font-size: 18px;
     font-style: normal;
-    line-height: 136%;
-    /* line-height: 24.3px; */
+    line-height: 136.5%;
 }
 
 .header__address {
@@ -98,10 +95,10 @@
 
 .cover__title {
     position: relative;
-    padding: 165px 50px 135px;
+    padding: 165px 50px 136px;
     font-weight: 700;
     font-size: 100px;
-    letter-spacing: 30px; 
+    letter-spacing: 30px;
 }
 
 .aligned-text {
@@ -129,7 +126,7 @@
 
 .no-letter-spacing {
     letter-spacing: 0px;
-} 
+}
 
 .cover__description {
     position: relative;
@@ -172,6 +169,7 @@
     text-transform: uppercase;
     line-height: 117.5%;
 }
+
 .lots__card-list {
     display: flex;
     flex-wrap: wrap;
@@ -191,10 +189,10 @@
 .card {
     position: relative;
     z-index: 0;
-    display: flex;  
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 51px 40px 47px;
+    padding: 49px 40px 48px;
 }
 
 .card-link {
@@ -204,7 +202,7 @@
 .card_type_film {
     width: 100%;
     height: 100%;
-    background-image: url(/images/card-lot-01.jpg);
+    background-image: url(../images/card-lot-01.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -213,16 +211,16 @@
 .card_type_book {
     width: 100%;
     height: 100%;
-    background-image: url(/images/card-lot-02.jpg);
+    background-image: url(../images/card-lot-02.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;    
+    background-size: cover;
 }
 
 .card_type_picture {
     width: 100%;
     height: 100%;
-    background-image: url(/images/card-lot-03.jpg);
+    background-image: url(../images/card-lot-03.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -232,7 +230,7 @@
     position: relative;
     font-weight: 700;
     font-size: 22px;
-    line-height: 118%;
+    line-height: 120%;
     text-decoration: underline;
     text-decoration-thickness: 1px;
     text-underline-offset: 2.5px;
@@ -258,8 +256,7 @@
 
 .lots__look-more-link {
     display: block;
-    padding: 30px 0 0 40px;
-    text-decoration: none;
+    padding: 29px 0 0 40px;
     font-weight: 400;
     font-size: 20px;
     line-height: 126%;
@@ -272,10 +269,10 @@
     display: grid;
     grid-template-columns: 334px 1fr;
     grid-template-rows: min-content 1fr;
-    grid-template-areas: 
+    grid-template-areas:
     "logo title"
     ". text";
-    margin: 146px 24px 180px;
+    margin: 145px 24px 181px;
     padding-top: 35px;
 }
 
@@ -284,9 +281,9 @@
     display: block;
     grid-area: logo;
     justify-self: center;
-    width: 240px;    
+    width: 240px;
     height: 240px;
-    border-radius: 50%; 
+    border-radius: 50%;
     background-color: black;
 }
 
@@ -295,7 +292,7 @@
     inset: 0;
 	margin: auto;
     width: 62%;
-    height: 85%;
+    height: 80%; 
 }
 
 .about__article {
@@ -337,7 +334,7 @@
 
 .footer__links-list {
     font-size: 18px;
-    line-height: 117%; 
+    line-height: 118%;
 }
 
 .footer__links-list-item {
@@ -355,7 +352,7 @@
 
 .footer__social-list {
     display: flex;
-    justify-self: end;  
+    justify-self: end;
     justify-content: start;
     gap: 48px;
     align-self: start;
