@@ -263,9 +263,9 @@
 
 .about__logo {
     position: relative;
-    display: block;
-    grid-area: logo;
-    justify-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 240px;
     height: 240px;
     border-radius: 50%;
@@ -273,9 +273,6 @@
 }
 
 .about__logo-image {
-    position: absolute;
-    inset: 0;
-	margin: auto;
     width: 62%;
     height: 80%;
 }
@@ -342,6 +339,7 @@
     justify-content: start;
     gap: 48px;
     align-self: start;
+    flex-wrap: wrap;
 }
 
 .footer__social-list-item {
